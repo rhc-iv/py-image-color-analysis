@@ -1,2 +1,3 @@
 # Flask-driven Python Image Color Analysis Web App.
-A Flask-driven Python Web App to analyze uploaded images &amp; extract/display the 16 most dominant colors of that image.
+
+From **Day 91** of **100 Days Of Code** taught by _Angela Yu_.
