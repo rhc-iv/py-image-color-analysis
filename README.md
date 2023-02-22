@@ -6,3 +6,5 @@ From **Day 91** of **100 Days Of Code** taught by _Angela Yu_.
 > Using `flask`, create a website that finds the most common colours in an uploaded image.
 
 This project also utilizes the `numpy`, `pillow`, and `sklearn` modules.
+
+![Home Page Screenshot](https://github.com/rhc-iv/py-image-color-analysis/blob/main/screenshot01.png)
