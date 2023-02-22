@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!--Link to stylesheet and Google Fonts:-->
+<head>
+    <meta charset="UTF-8" />
+    <title>Completed Image Color Analysis</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet" />
+</head>
+
+
+<!--Render results as a 2-column table with hex codes and color samples:-->
+<body>
+    <h1>Image Color Results:</h1>
+    <table>
+        <thead>
+            <tr>
+                <th style="text-align: center;">Color Hex Code</th>
+                <th style="text-align: center;">Color Swatch</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in range(16) %}
+            <tr>
+                <td style="text-align: center;">{{ hex_codes[i] }}</td>
+                <td style="text-align: center;"><div class="swatch" style="background-color:{{ swatches[i] }};"></div></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!--Create 2 buttons: one to copy hex codes from table and another to return to the home page:-->
+    <div style="text-align: center; margin-top: 40px;">
+        <button class="button" onclick="copyColors()" style="margin-right: 40px;">Copy Colors to Clipboard</button>
+        <button class="button" onclick="goHome()">Return Home</button>
+    </div>
+
+<!--Javascript functions for the buttons:-->
+    <script>
+        function copyColors() {
+            const colors = "{{ ','.join(hex_codes) }}";
+            navigator.clipboard.writeText(colors);
+        }
+
+        function goHome() {
+            window.location.href = "/";
+        }
+    </script>
+</body>
+</html>

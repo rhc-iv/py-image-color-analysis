@@ -1,1 +1,24 @@
+<!DOCTYPE html>
 
+<html lang="en">
+
+<!--Link to stylesheet and Google Fonts:-->
+<head>
+    <meta charset="UTF-8" />
+    <title>Image Color Analyzer</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet" />
+</head>
+
+<!--Create file picker and file submit button:-->
+<body>
+    <h1 style="text-align: center;">Image Color Analysis Tool</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" class="file" accept=".png, .jpg, .jpeg">
+      <button class="button" type="submit">Find Colors in Image</button>
+    </form>
+</body>
+
+</html>
