@@ -1,1 +1,35 @@
+body {
+    background-color: #ABB2BF;
+    color: #353B45;
+    font-family: 'Coda', cursive;
+    text-align: center;
+}
 
+.file {
+    border-radius: 10px;
+    font-family: 'Coda', cursive;
+    font-size: 18px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 10px;
+    font-family: 'Coda', cursive;
+    font-size: 18px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.swatch {
+    width: 75px;
+    height: 20px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    padding-right: 40px;
+}
