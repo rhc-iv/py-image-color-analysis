@@ -10,3 +10,5 @@ This project also utilizes the `numpy`, `pillow`, and `sklearn` modules.
 ![Home Page Screenshot](https://github.com/rhc-iv/py-image-color-analysis/blob/main/screenshot01.png)
 
 ![Image Selection Screenshot](https://github.com/rhc-iv/py-image-color-analysis/blob/main/screenshot02.png)
+
+![Results Page Screenshot](https://github.com/rhc-iv/py-image-color-analysis/blob/main/screenshot03.png)
