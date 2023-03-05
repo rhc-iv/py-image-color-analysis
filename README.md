@@ -18,7 +18,7 @@
 > Desktop application to analyze colors from an image then output the top 16 colors in their respective Hex code format.
 
 <p align="center">
-  <img alt="Image Color Analysis App" src="https://github.com/rhc-iv/py-image-color-analysis/blob/main/screenshot01.png?raw=true" width="1000" height="600" />
+  <img alt="Image Color Analysis App" src="https://github.com/rhc-iv/py-image-color-analysis/blob/main/screenshot01.png?raw=true" width="1200" height="400" />
 </p>
 
 ## Usage
