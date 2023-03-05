@@ -13,7 +13,7 @@
   </p>
 </p>
 
-### 🛋️ [Homepage](https://github.com/rhc-iv/py-watermark-app)
+### 🛋️ [Homepage](https://github.com/rhc-iv/py-image-color-analysis)
 ---
 > Desktop application to analyze colors from an image then output the top 16 colors in their respective Hex code format. This app uses the `flask` library.
 
