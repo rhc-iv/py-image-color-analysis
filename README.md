@@ -18,7 +18,10 @@
 > Desktop application to analyze colors from an image then output the top 16 colors in their respective Hex code format. This app uses the `flask` and `pillow` **Python** libraries.
 
 <p align="center">
-  <img alt="Image Color Analysis App" src="https://github.com/rhc-iv/py-image-color-analysis/blob/main/ss01.png?raw=true" />
+  <img alt="Image Color Analysis App Main Screen" src="https://github.com/rhc-iv/py-image-color-analysis/blob/main/ss01.png?raw=true" />
+</p>
+<p align="center">
+  <img alt="Image Color Analysis File Browser" src="https://github.com/rhc-iv/py-image-color-analysis/blob/main/ss02.png?raw=true" />
 </p>
 
 ## Usage
