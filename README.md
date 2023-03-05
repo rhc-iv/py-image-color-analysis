@@ -15,7 +15,7 @@
 
 ### 🛋️ [Homepage](https://github.com/rhc-iv/py-watermark-app)
 ---
-> Desktop application to analyze colors from an image then output the top 16 colors in their respective Hex code format.
+> Desktop application to analyze colors from an image then output the top 16 colors in their respective Hex code format. This app uses the `flask` library.
 
 <p align="center">
   <img alt="Image Color Analysis App" src="https://github.com/rhc-iv/py-image-color-analysis/blob/main/screenshot01.png?raw=true" width="1200" height="400" />
@@ -23,13 +23,14 @@
 
 ## Usage
 
-- Open and run `main.py` in the editor/IDE of your choice.
+- Open and run `app.py` in the editor/IDE of your choice.
+- Choose an image via the file browser, then select the _**Find Colors**_ button.
+- On the results page, choose the _**Copy Colors To Clipboard**_ button to send the hex codes to your clipboard.
+- Clicking the _**Return Home**_ button will allow you to select more images for analysis.
 
 ## 📝 To-Do
 
-- (Personal) Improve logo
-- Write function(s) to watermark multiple images simultaneously.
-- Write function to allow selection of watermark location on image via GUI.
+- Move app to **Streamlit** and deploy.
 
 ## 👤 Author
 
