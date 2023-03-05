@@ -23,6 +23,9 @@
 <p align="center">
   <img alt="Image Color Analysis File Browser" src="https://github.com/rhc-iv/py-image-color-analysis/blob/main/ss02.png?raw=true" />
 </p>
+<p align="center">
+  <img alt="Image Color Analysis Results Screen" src="https://github.com/rhc-iv/py-image-color-analysis/blob/main/ss03.png?raw=true" />
+</p>
 
 ## Usage
 
