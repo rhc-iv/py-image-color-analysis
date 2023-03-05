@@ -15,7 +15,7 @@
 
 ### 🛋️ [Homepage](https://github.com/rhc-iv/py-image-color-analysis)
 ---
-> Desktop application to analyze colors from an image then output the top 16 colors in their respective Hex code format. This app uses the `flask` library.
+> Desktop application to analyze colors from an image then output the top 16 colors in their respective Hex code format. This app uses the `flask` and `pillow` **Python** libraries.
 
 <p align="center">
   <img alt="Image Color Analysis App" src="https://github.com/rhc-iv/py-image-color-analysis/blob/main/screenshot01.png?raw=true" width="1200" height="400" />
@@ -42,7 +42,7 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/rhc-iv/py-watermark-app/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/rhc-iv/py-image-color-analysis/issues). 
 
 ## Show your support
 
